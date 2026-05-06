@@ -5,6 +5,8 @@ on:
     paths:
       - ".github/workflows/upper-cross.yml"
       - "upper/**"
+    tags:
+      - "v*"
   workflow_dispatch: # manual
 
 jobs:
@@ -33,4 +35,3 @@ jobs:
       #     path: ./upper/bin/upper*
       #     name: build
 
-      
